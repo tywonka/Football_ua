@@ -1,0 +1,17 @@
+﻿{
+  "name": "Football.ua",
+  "description": "Убирает изменение location при нажатии на матч",
+  "version": "1.0",
+  "permissions": [
+	"http://football.ua/"
+  ],
+  "icons": {
+      "48": "48x48.png"
+  },
+  "content_scripts": [
+	    {
+	    	"matches": ["http://football.ua/"],
+	      	"js": ["content_script.js"]
+	    }
+  ]
+}
